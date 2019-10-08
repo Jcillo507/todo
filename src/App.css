@@ -1,3 +1,5 @@
+html{
+}
 *{
   text-align: center;
 }
@@ -7,11 +9,13 @@
 
 /** add todo **/
 .add-todo {
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
 }
 
 /** todo list **/
 .todo-list {
+  margin: 0;
+  padding: 0;
   margin-top: 1rem;
   text-align: left;
   list-style: none;
